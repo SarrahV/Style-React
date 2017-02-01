@@ -22,7 +22,7 @@ Fork this repo and fill out the rest of the styles using inline javascript.
 [This is the completed Inline example, don't cheat!](http://codepen.io/sarrahvesselov/pen/ZLaVmV/)
 
 #Part Four - CSS Modules
-THis repo contains the code needed to complete the CSS Modules part of this workshop.
+This repo contains the code needed to complete the CSS Modules part of this workshop.
 ## To Get started
 
 Open up your terminal:
