@@ -1,76 +1,27 @@
-# Static React and CSS Modules
+# How to Style in React and Not Lose Friends
 
-A React, Webpack and CSS Modules project that generates static markup. All markup is generated in `/build` from `/src`. If you’re interested in learning more Style the inner workings of this project you can check out the tutorial on CSS-Tricks:
+Aside from the presidential election last year, I don't know of another topic sure to cause more heated debate than how to style React components. My workshop will cover the main methods for styling in React. Through live code examples we will discover the pros and cons of each method and make recommendations based on your projects unique needs. By the end you should feel confident that there is hope! You can style React components without losing friends. 
 
-📕 [CSS Modules and React](https://css-tricks.com/css-modules-part-3-react/) 📕
+#BEM
+This link will take you to a starter React SPA in Codepen. 
+Fork this repo and refactor the CSS to use the BEM naming convention.
 
+#Sass
+This link will take you to a starter React SPA in Codepen. This repo has Sass installed for you. 
+Fork this repo and refactor the CSS to use Variables, nesting, and any other Sass conventions you want.
 
-## Getting started
+#Inline Styles
+This link will take you to a starter React SPA in Codepen. This is using Inline Styles. 
+Fork this repo and fill out the rest of the styles using inline javascript.
 
-Hop into the terminal:
+#CSS Modules
+THis repo contains the code needed to complete the CSS Modules part of this workshop.
+## To Get started
+
+Open up your terminal:
 
 1. `npm install`
 2. `npm start`
 
-BrowserSync will then open up a new tab where you can start to make new components and templates as you see fit. 
+BrowserSync will open up a new tab automatically!
 
-## Workflow
-
-React is used in this project not to build a complex web app but instead to organise bundles of CSS and JS in order to write maintainable code and create static markup. This is what our directory structure looks like:
-
-```
-/src
-  /components
-    /Button
-      Button.js
-      styles.css
-    /Title
-      Title.js
-      style.css
-```
-
-So in `Button.js` we create a standard React component and we import its styles so that Webpack can generate custom classnames: 
-
-```
-import React from 'react'
-import btn from './styles.css'
-
-export default class CoolButton extends React.Component {
-    render(){
-        return (
-            <button className={btn.red}>{this.props.text}</button>
-        )
-    }
-}
-```
-
-And then we import that React component into one of the templates, such as `src/templates/Home.js`: 
-
-```
-import React from 'react'
-import CoolButton from '../components/Button/Button'
-
-export default class Home extends React.Component {
-  render() {
-    return (
-        <div>
-            <h1>Home page</h1>
-            <p>This is a home page</p>
-            <CoolButton text='A super cool button'/>
-        </div>
-    )
-  }
-}
-```
-
-This way we get to generate custom classnames like CSS Modules but we also get some of the templating benefits of React.
-
-## Improvements
-
-Since this is a concept for how you might want to organise your markup and CSS, this project contains as few dependencies as possible. I haven’t added Sass or PostCSS loaders into the Webpack config, and this project doesn’t support image files either. 
-
-## Issues
-
-This is really just a proof of concept, but if you feel like there’s anything I’ve missed then don’t hesitate to open an issue. 
-# Style-React-UXDEV
-# Style-React-UXDEV
