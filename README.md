@@ -11,12 +11,14 @@ Fork this repo and refactor the CSS to use the BEM naming convention.
 [This link will take you to a starter React SPA in Codepen.](http://codepen.io/sarrahvesselov/pen/JELRXL/) This repo has Sass installed for you. 
 
 Fork this repo and refactor the CSS to use Variables, nesting, and any other Sass conventions you want.
+
 [This is the completed Sass example, don't cheat!](http://codepen.io/sarrahvesselov/pen/dNZgqZ/)
 
 #Part Three - Inline Styles
 [This link will take you to a starter React SPA in Codepen.](http://codepen.io/sarrahvesselov/pen/XpgZzz/) This is the same pen we used in Part One. We will slowly start replacing the CSS with inline style objects.
 
 Fork this repo and fill out the rest of the styles using inline javascript.
+
 [This is the completed Inline example, don't cheat!](http://codepen.io/sarrahvesselov/pen/ZLaVmV/)
 
 #Part Four - CSS Modules
