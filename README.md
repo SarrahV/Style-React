@@ -2,6 +2,8 @@
 
 Aside from the presidential election last year, I don't know of another topic sure to cause more heated debate than how to style React components. This workshop will cover the main methods for styling in React. Through live code examples we will discover the pros and cons of each method and make recommendations based on your projects unique needs. By the end you should feel confident that there is hope! You can style React components without losing friends. 
 
+[Link to slide Deck](https://docs.google.com/presentation/d/1IYqpMsmAbARSegvN-SypC2MhpDwkR-HfEVEtklfIFWY/edit?usp=sharing)
+
 #Part One - BEM
 [This link will take you to a starter React SPA in Codepen.](http://codepen.io/sarrahvesselov/pen/XpgZzz/)
 
