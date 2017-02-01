@@ -1,0 +1,31 @@
+
+.container {
+   background-color: #111;
+   display: flex;
+}
+
+.logo {
+  padding: 10px 10px 0 10px;
+}
+
+.list {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.item {
+  display: inline;
+}
+
+.link {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 25px;
+  display: inline-block;
+}
+
+.active {
+  background-color: #53C1DE;
+}
