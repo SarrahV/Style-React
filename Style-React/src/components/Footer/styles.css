@@ -1,0 +1,15 @@
+.container {
+   display: flex;
+   padding: 20px;
+   align-items: baseline;
+}
+
+.link {
+   padding-right: 25px;
+}
+
+.icon {
+   width: 25px;
+   height: 25px;
+   color: #000;
+}
