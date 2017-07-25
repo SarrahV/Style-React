@@ -55,5 +55,5 @@ Open up your terminal:
 1. `npm install`
 2. `npm start`
 
-BrowserSync will open up a new tab automatically!
+BrowserSync will open up a new tab automatically, that's it!
 
