@@ -12,7 +12,7 @@ export default class Style extends React.Component {
                <p>Think you know CSS? Think again. If you aren't learning, you aren't growing.</p>
              </li>
              <li>
-               <h3><a href="https://webpack.github.io/docs/using-loaders.html" target="_blank">Sass</a></h3>
+               <h3><a href="http://sass-lang.com/" target="_blank">Sass</a></h3>
                <p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
              </li>
             <li>
